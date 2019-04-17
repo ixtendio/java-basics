@@ -4,6 +4,9 @@ import java.security.SecureRandom;
 import java.util.Arrays;
 import java.util.stream.IntStream;
 
+/**
+ * Optimize the code
+ */
 public class OccurrenceFinder {
 
     private final int[] items;

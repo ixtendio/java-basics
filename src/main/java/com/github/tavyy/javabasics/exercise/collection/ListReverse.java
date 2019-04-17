@@ -1,7 +1,6 @@
 package com.github.tavyy.javabasics.exercise.collection;
 
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.stream.StreamSupport;
 
@@ -22,7 +21,7 @@ public class ListReverse {
         StreamSupport.stream(reversedList.spliterator(), false).filter(e -> e <= 10).forEach(e -> System.out.print(e + " "));
     }
 
-    private static Iterable<Integer> reverse(Collection<Integer> list) {
+    private static Iterable<Integer> reverse(List<Integer> list) {
         List<Integer> result = new ArrayList<>(list.size());
         for (Integer val : list) {
             result.add(0, val);
