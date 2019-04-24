@@ -1,4 +1,4 @@
-package com.github.tavyy.javabasics.lambda;
+package com.github.tavyy.javabasics.exercise.lambda;
 
 import java.util.function.Predicate;
 import java.util.function.Supplier;
